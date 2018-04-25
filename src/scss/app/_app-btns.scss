@@ -1,0 +1,17 @@
+.bt{
+  display: inline-block;
+  font-size: 2.1875rem;
+  line-height: 2.8125rem;
+  border: 0 none;
+  padding: 1.5625rem 1.875rem;
+  @include border-radius(0);
+
+  &.bt-block{
+    display: block;
+    width: 100%;
+  }
+  &.bt-primary{
+    background-color: #0067b4;
+    color: #FFFFFF;
+  }
+}

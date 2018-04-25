@@ -16,9 +16,14 @@
   ?>
 </head>
 <body>
-  <div class="container-app">
-    <h1>Hello world!</h1>
-  </div>
+  <section id="inicio">
+    <div class="container-app">
+      <h1><img src="/src/img/app/logo-app-min.png" alt="Calculadora Solar - logo"></h1>
+      <button type="button" class="bt bt-primary bt-block bt-simulador">Simulador</button>
+      <button type="button" class="bt bt-primary bt-block">Login</button>
+      <h2><img src="/src/img/app/logo-balfar-min.png" alt="Balfar - logo"></h2>
+    </div>
+  </section>
   
   <?php
     // Development version
