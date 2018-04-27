@@ -1,6 +1,7 @@
-  <script src="<?php echo $raiz; ?>src/js/jquery-3.3.1.min.js"></script>
-  <script src="<?php echo $raiz; ?>src/js/bootstrap.bundle.min.js"></script>
   <?php
+    // echo '<script src="'.$raiz.'src/js/jquery-3.3.1.min.js"></script>';
+    // echo '<script src="'.$raiz.'src/js/bootstrap.bundle.min.js"></script>';
+
     // Development version
     echo '<script src="'.$raiz.'src/js/app-main.js"></script>';
 
