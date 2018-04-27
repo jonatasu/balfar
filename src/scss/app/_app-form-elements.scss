@@ -7,7 +7,7 @@
     margin-bottom: 2.1875rem;
   }
 }
-form.app-form {
+.app-form {
   .form-group {
     margin-bottom: 4.0625rem;
 
@@ -19,15 +19,26 @@ form.app-form {
       display: block;
     }
   }
-  input[type=text], select, textarea{
+  #empresarial, #outros, &.common-field{
+    .form-group{
+      margin-bottom: 1.5625rem
+    }
+  }
+  .form-content{
+    display:none
+  }
+  input[type=text], input[type=number], input[type=email], input[type=tel], select, textarea{
     font-size: 1.875rem;
+    font-weight: 500;
     line-height: 2.5rem;
     color: #6d6f71;
     padding: 0.9375rem 1.875rem;
     width: 100%;
   }
-  input[type=text], input[type=html], select, textarea{
-    border-color: $cor-primaria;
+  input[type=text], input[type=number], input[type=email], input[type=tel], input[type=html], select, textarea{
+    border-color: darken($cor-primaria, 5%);
+    border-width: 0.125rem;
+    outline: 0 none;
   }  
   .checkbox, .radio{
     font-size: 1.875rem;
@@ -59,9 +70,159 @@ form.app-form {
       bottom: 0;
       z-index: 1;
       width: 4.375rem;
-      background: #ffb001 url('../img/app/arrow-white-to-bottom-min.png') no-repeat center;
+      background: $cor-secundaria url('../img/app/arrow-white-to-bottom-min.png') no-repeat center;
       background-size: 2.625rem;
       pointer-events: none;
     }
-  }  
+  }
+  .custom-range{
+    display: grid;
+    grid-template-columns: 1.125rem auto 1.8125rem;
+    grid-column-gap: 0.3125rem;
+    line-height: 3.125rem;
+    padding-top: 4.6875rem;
+
+    img:first-child{
+      @include transform(translateY(0.5rem));
+    }
+
+    .range{
+      position:relative;
+
+      input[type=range]{
+        width: 100%;
+        height: 3.125rem;
+        -webkit-appearance: none;
+        margin: 0;
+
+        &:focus {
+          outline: none;
+        }
+        &::-webkit-slider-runnable-track {
+          width: 100%;
+          height: 4px;
+          cursor: pointer;
+          box-shadow: 0 0 0 #000000;
+          background: $cor-primaria;
+          border: 1px solid #77AED7;
+          @include border-radius(0);
+          @include transition(all 0.2s linear);
+        }
+        &::-webkit-slider-thumb {
+          box-shadow: 0 0 0 #000000;
+          border: 0 solid #000000;
+          height: 40px;
+          width: 50px;
+          background: $cor-secundaria;
+          @include border-radius(0);
+          cursor: pointer;
+          -webkit-appearance: none;
+          margin-top: -18.5px;
+        }
+        &:focus::-webkit-slider-runnable-track {
+          background: $cor-primaria;
+        }
+
+        &::-moz-range-track {
+          width: 100%;
+          height: 4px;
+          cursor: pointer;
+          box-shadow: 0 0 0 #000000;
+          background: $cor-primaria;
+          border: 1px solid #77AED7;
+          @include border-radius(0);
+          @include transition(all 0.2s linear);
+        }
+        &::-moz-range-thumb {
+          box-shadow: 0 0 0 #000000;
+          border: 0 solid #000000;
+          height: 40px;
+          width: 50px;
+          background: $cor-secundaria;
+          cursor: pointer;
+          @include border-radius(0);
+        }
+
+        &::-ms-track {
+          width: 100%;
+          height: 4px;
+          cursor: pointer;
+          background: transparent;
+          border-color: transparent;
+          color: transparent;
+          @include transition(all 0.2s linear);
+        }
+        &::-ms-fill-lower {
+          background: $cor-primaria;
+          border: 1px solid #77AED7;
+          box-shadow: 0 0 0 #000000;
+          @include border-radius(0);
+        }
+        &::-ms-fill-upper {
+          background: $cor-primaria;
+          border: 1px solid #77AED7;
+          box-shadow: 0 0 0 #000000;
+          @include border-radius(0);
+        }
+        &::-ms-thumb {
+          margin-top: 1px;
+          box-shadow: 0 0 0 #000000;
+          border: 0 solid #000000;
+          height: 40px;
+          width: 50px;
+          background: $cor-secundaria;
+          cursor: pointer;
+          @include border-radius(0);
+        }
+
+        &:focus::-ms-fill-lower {
+          background: $cor-primaria;
+        }
+        &:focus::-ms-fill-upper {
+          background: $cor-primaria;
+        }
+      }
+
+      output { 
+        position: absolute;
+        background-color: $cor-secundaria;
+        width: 10rem; 
+        height: 3.25rem; 
+        text-align: center; 
+        color: $cor-primaria;
+        display: inline-block; 
+        font: 800 1.25rem/3.25rem Montserrat;
+        bottom: 5rem;
+        left: 0;
+        margin-left: -1%;
+        text-align: center;
+      }
+      output:after { 
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 15px solid $cor-secundaria;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        margin-top: -1px;
+      }
+    }
+  }
+
+  &.contact{
+    margin: 1.25rem 0;
+    
+    input[type=text], input[type=number], input[type=email], input[type=tel], select, textarea{
+      border: 0 none;
+      border-bottom: 2px solid #ffa200;
+      color: #58595b;
+      font-weight: 800;
+      margin-bottom: 1.25rem;
+      text-align: center
+    }
+  }
 }

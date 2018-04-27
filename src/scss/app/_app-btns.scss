@@ -2,6 +2,7 @@
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
   font-size: 2.1875rem;
+  white-space: nowrap;
   font-weight: 600;
   line-height: 2.8125rem;
   border: 0 none;
@@ -23,6 +24,11 @@
   &.bt-primary{
     background-color: $cor-primaria;
     color: #FFFFFF;
+  }
+  &.bt-tel{
+    background-color: #3b9300;
+    color: #FFFFFF;
+    margin: 1.5625rem 0;
   }
 
   > span.ico-arrow{

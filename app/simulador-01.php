@@ -5,7 +5,7 @@
   <section id="simulador">
     <div class="container-app">
       <h3>CALCULADORA SOLAR. VEJA QUAL É O MELHOR SISTEMA PARA SUA CASA OU EMPRESA</h3>
-      <form class="app-form" action="simulador-02" method="post">
+      <form class="app-form" action="simulador-02.php" method="post">
         <div class="form-group">
           <label>1. O local possui acesso à rede elétrica?</label>
           <div class="row">
