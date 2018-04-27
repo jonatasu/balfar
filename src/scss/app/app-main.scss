@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,900');
 
+@import "../bs4-scss/__bootstrap-reboot.scss";
 @import "../bs4-scss/__bootstrap-grid.scss";
+//@import "../bs4-scss/__bootstrap.scss";
 @import "../css3-mixins";
+@import "app-vars";
+@import "../awesome-bootstrap-checkbox-radio";
 @import "app-base";
 @import "app-typography";
 @import "app-btns";
+@import "app-form-elements";
+@import "app-nav";
+@import "app-footer";
 @import "app-inicio";

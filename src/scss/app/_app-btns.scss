@@ -1,17 +1,36 @@
 .bt{
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   font-size: 2.1875rem;
+  font-weight: 600;
   line-height: 2.8125rem;
   border: 0 none;
-  padding: 1.5625rem 1.875rem;
+  padding: 1rem 1.875rem 1.5625rem ;
+  text-decoration: none;
+  text-align: center;
   @include border-radius(0);
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    background-color: darken($cor-primaria, 20%)
+  }
 
   &.bt-block{
     display: block;
     width: 100%;
   }
   &.bt-primary{
-    background-color: #0067b4;
+    background-color: $cor-primaria;
     color: #FFFFFF;
+  }
+
+  > span.ico-arrow{
+    display: inline-block;
+    background: transparent url('../img/app/arrow-yellow-to-right-min.png') no-repeat center;
+    background-size: 2.5625rem;
+    width: 3.3rem;
+    height: 3.3rem;
+    @include transform(translateY(0.75rem))
   }
 }

@@ -1,0 +1,67 @@
+#simulador {
+  h3{
+    color: $cor-primaria;
+    font-weight: 600;
+    font-size: 1.875rem;
+    text-align: center;
+    margin-bottom: 2.1875rem;
+  }
+}
+form.app-form {
+  .form-group {
+    margin-bottom: 4.0625rem;
+
+    > label{
+      color: $cor-primaria;
+      font-weight: 600;
+      font-size: 1.875rem;
+      margin-bottom: 2.5rem;
+      display: block;
+    }
+  }
+  input[type=text], select, textarea{
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    color: #6d6f71;
+    padding: 0.9375rem 1.875rem;
+    width: 100%;
+  }
+  input[type=text], input[type=html], select, textarea{
+    border-color: $cor-primaria;
+  }  
+  .checkbox, .radio{
+    font-size: 1.875rem;
+    line-height: 3.125rem;
+    color: $cor-primaria;
+
+    label{
+      padding-left: 2rem;
+
+      &::before{
+        width: 3.125rem;
+        height: 3.125rem;
+      }
+    }
+    input[type="radio"]:checked+label::before{
+      font-size: 1.875rem
+    }
+  }
+  .custom-select{
+    position: relative;
+    display: block;
+    font-size: 30px;
+
+    &::before{
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      width: 4.375rem;
+      background: #ffb001 url('../img/app/arrow-white-to-bottom-min.png') no-repeat center;
+      background-size: 2.625rem;
+      pointer-events: none;
+    }
+  }  
+}
