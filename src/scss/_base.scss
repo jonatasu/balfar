@@ -1,0 +1,106 @@
+html, body{
+  min-width: 100vw;
+  min-height: 100vh;
+  padding:0;
+  margin:0;
+  color: $cor-neutra;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section{
+  padding-top: 4.0625rem;
+  padding-bottom: 4.0625rem;
+}
+
+.d-flex{
+  &.direction-column{
+    flex-direction: column
+  }
+  &.align-items-stretch{
+    align-items: stretch;
+  }
+}
+
+.cor-primaria{
+  color: $cor-primaria
+}
+.cor-secundaria{
+  color: $cor-secundaria
+}
+.cor-neutra{
+  color: $cor-neutra
+}
+.cor-w{
+  color: white
+}
+
+
+h2{
+  &, a{
+    font-size: 3.125rem;
+    font-weight: 200;
+  }
+}
+.detalhe-dots{
+  display:inline-block;
+  font-size: 5rem;
+  line-height: 0;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  
+  &::before{
+    content:"....";
+  }
+}
+.fs18{
+  font-size: 1.125rem;
+}
+.fs20{
+  font-size: 1.25rem;
+}
+.fs30{
+  font-size: 1.875rem;
+}
+
+.btn{
+  font-size: 1.5625rem;  
+  padding-left: 4.0625rem;
+  padding-right: 4.0625rem;
+  @include border-radius(0);
+
+  &.btn-primary{
+    background-color: $cor-secundaria;
+    border-color: $cor-secundaria;
+    color: white;  
+
+    &:hover,
+    &:focus{
+      background-color: lighten($cor-secundaria, 5%)
+    }
+  }
+  &.btn-link{
+    padding-left: 0;
+
+  }
+  
+  > span.ico-arrow{
+    display: inline-block;
+    background: transparent url('../img/app/arrow-yellow-to-right-min.png') no-repeat center;
+    background-size: 2.5625rem;
+    width: 3.3rem;
+    height: 3.3rem;
+    @include transform(translateY(0.75rem))
+  }
+}
+
+.card{
+  border: 0 none;
+  background-color: transparent;
+
+  &,.card-img-top{
+    @include border-radius(0);
+  }
+  .card-img-top{
+    max-width: 100%;
+  }
+}

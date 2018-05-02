@@ -1,1 +1,16 @@
+//@import "bs4-scss/__bootstrap-reboot";
+@import "bs4-scss/__bootstrap";
 @import "css3-mixins";
+@import "vars";
+@import "awesome-bootstrap-checkbox-radio";
+@import "base";
+@import "estrutura";
+@import "morph-search";
+@import "app/app-form-elements";
+@import "banner-big";
+@import "porque";
+@import "app/simulador";
+@import "home-quem-somos";
+@import "section-include-video";
+@import "cards-produtos";
+@import "cards-blog-posts";

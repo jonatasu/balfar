@@ -1,0 +1,15 @@
+.porque{
+  background: #ea9b01 url('../img/porque-bg-parallax-min.png') no-repeat top center;
+  background-size: cover;
+
+  .card{
+    .card-title{
+      font-size: 1.5625rem;
+      color: white;
+    }
+    .card-text{
+      font-size: 1.125rem;
+      color: #0f384e;
+    }
+  }
+}

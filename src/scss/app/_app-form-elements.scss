@@ -60,7 +60,10 @@
   .custom-select{
     position: relative;
     display: block;
-    font-size: 30px;
+    font-size: 1.875rem;
+    border: 0 none;
+    padding: 0;
+    height: auto;
 
     &::before{
       content: " ";

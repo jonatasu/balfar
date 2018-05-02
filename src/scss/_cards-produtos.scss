@@ -1,0 +1,36 @@
+.home{
+  .produtos{
+    background: $cor-primaria url('../img/destaque-produtos-bg-min.jpg') no-repeat top center;
+    background-size: cover;
+
+    .card{
+      background-color: white;
+      padding: 0.625rem;
+
+      .card-img-top{
+        min-height: 12.8125rem;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .card-body{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+
+        .card-title{
+          font-size: 1.125rem;
+          color: $cor-primaria;
+        }
+
+        .btn{
+          padding-left: 0.625rem; 
+          padding-right: 0.625rem;
+          font-size: 1.3rem;
+        }
+      }
+
+    }
+  }
+}
