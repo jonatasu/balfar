@@ -34,6 +34,7 @@
     color: #6d6f71;
     padding: 0.9375rem 1.875rem;
     width: 100%;
+    @include border-radius(0)
   }
   input[type=text], input[type=number], input[type=email], input[type=tel], input[type=html], select, textarea{
     border-color: darken($cor-primaria, 5%);

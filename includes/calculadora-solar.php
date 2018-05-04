@@ -95,7 +95,7 @@
                   <img src="src/img/app/ico-light-blue-small-min.png" alt="">
 
                   <div class="range">
-                    <input id="fdl_gasto" type="range" min="0" max="3500">
+                    <input id="fdl_gasto" type="range" value="0" min="0" max="3500">
                     <output for="fdl_gasto" onforminput="value = fdl_gasto.valueAsNumber;"></output>
                   </div>
 
@@ -107,7 +107,7 @@
                 <input type="number" min="1" step="any" name="nr_1_tarifa" id="nr_1_tarifa" class="text-center" placeholder="0,68">
               </div>
               <br>
-              <button type="submit" class="bt bt-primary bt-block">Resultado <span class="ico-arrow"></span></button>
+              <button type="submit" class="btn btn-link cor-primaria">Resultado <span class="ico-arrow"></span></button>
             </form>
             <form id="empresarial" class="form-content" action="#etapa3" method="post">
               <p class="info">
@@ -126,7 +126,7 @@
                 <input type="text" name="txt_2_irradiacao" id="txt_2_irradiacao" class="text-center" placeholder="4,23 kWh/m2 - dia">
               </div>
               <br>
-              <button type="submit" class="bt bt-primary bt-block">Solicitar orçamento <span class="ico-arrow"></span></button>
+              <button type="submit" class="btn btn-link cor-primaria">Solicitar orçamento <span class="ico-arrow"></span></button>
             </form>
             <form id="outros" class="form-content" action="#etapa3" method="post">
               <p class="info">
@@ -145,7 +145,7 @@
                 <input type="text" name="txt_3_irradiacao" id="txt_3_irradiacao" class="text-center" placeholder="4,23 kWh/m2 - dia">
               </div>
               <br>
-              <button type="submit" class="bt bt-primary bt-block">Solicitar orçamento <span class="ico-arrow"></span></button>
+              <button type="submit" class="btn btn-link cor-primaria">Solicitar orçamento <span class="ico-arrow"></span></button>
             </form>        
           </div>
         </div>
@@ -173,7 +173,7 @@
               <p class="info"><big>Retorno do investimento (valores em R$)</big></p>
               <canvas id="myChart" width="100%" height="100px"></canvas>
             </div>
-            <button type="submit" class="bt bt-primary bt-block">Comparativos <span class="ico-arrow"></span></button>
+            <button type="submit" class="btn btn-link cor-primaria">Comparativos <span class="ico-arrow"></span></button>
           </form>
         </div>
 
@@ -181,7 +181,7 @@
           <p class="info like-label">6. Informações adicionais</p>
           <br>
           <p class="info">Comparativos de investimentos</p>
-          <div class="blue-box">
+          <div class="blue-box text-center lazy-img">
             <img data-src="src/img/app/invest-UP-min.png" alt="icone - retorno positivo">
             <p class="info"><strong>Seu investimento no sistema votaico é de R$ 150.000,00.<br>Rendimento de 19%</strong></p>
             <img data-src="src/img/app/invest-DOWN-min.png" alt="icone - retorno negativo">
@@ -196,25 +196,27 @@
             <input type="tel" name="txt_name" id="txt_name" placeholder="Telefone">
             <textarea name="txtarea_msg" id="txtarea_msg" rows="4" placeholder="Escreva sua mensagem"></textarea>
             <br>
-            <button type="submit" class="bt bt-primary bt-block">Enviar <span class="ico-arrow"></span></button>
+            <button type="submit" class="btn btn-link cor-primaria">Enviar <span class="ico-arrow"></span></button>
           </form>
           <br>
           <p class="info like-label">
             <strong>Ou se preferir liga pra gente!</strong>
             <br>
-            <a class="bt bt-tel" href="tel:+554430293655" title="ligar para +55 (44) 3029-3655">
+            <a class="bt bt-tel lazy-img" href="tel:+554430293655" title="ligar para +55 (44) 3029-3655">
               <img data-src="src/img/app/ico-tel-min.png" alt="icone - telefone"> +55 (44) 3029-3655 - Maringá
             </a>
           </p>
         </div>
 
-        <div id="etapa5" class="etapas d-none">
-          <p><img data-src="src/img/app/thank-you-min.png" alt="icone - envelope"></p>
-          <p>
-            <strong>Obrigado pelo seu contato!</strong>
-            <br>
-            Retornaremos em breve
-          </p>
+        <div id="etapa5" class="etapas d-none lazy-img bg-cor-primaria h-100">
+          <div class="d-flex direction-column align-items-center justify-content-center h-100">
+            <p><img data-src="src/img/app/thank-you-min.png" alt="icone - envelope"></p>
+            <p class="cor-w">
+              <strong>Obrigado pelo seu contato!</strong>
+              <br>
+              Retornaremos em breve
+            </p>
+          </div>
         </div>
       </div>
       <div class="col-sm-4 offset-sm-1 d-xs-none d-flex direction-column justify-content-end text-center">

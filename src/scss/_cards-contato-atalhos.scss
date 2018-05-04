@@ -1,0 +1,22 @@
+.contato-atalhos{
+  .card{    
+    .card-img-top{
+      min-height: 5.625rem;
+      margin: 0 auto 15px;
+      display:grid;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-title{
+      text-transform: uppercase;
+      color: $cor-primaria;
+      font-size: 1.5625rem;
+      line-height: 1.8981rem;
+    }
+    .card-text{
+      color: $cor-neutra;
+      font-size: 1.125rem;
+      line-height: 1.5625rem;
+    }
+  }
+}

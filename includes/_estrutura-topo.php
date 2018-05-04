@@ -19,6 +19,7 @@
   <meta name="author" content="Jônatas Filipe Vieira && LTXXDESIGN">
   <link rel="icon" href="/favicon.ico">
 
+  <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
   <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="src/css/main.min.css">
   

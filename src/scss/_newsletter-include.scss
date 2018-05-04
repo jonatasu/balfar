@@ -1,0 +1,29 @@
+.newsletter{
+  @include placeholder(#FFFFFF);
+
+  h3{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.4575rem;
+  }
+
+  input[type=email]{
+    background-color: rgba(#FFFFFF, .3);
+    font-size: 1.875rem;
+    color: white;
+    border: 0 none;
+    padding: 1.25rem 1.25rem;
+    @include border-radius(0);
+  }
+  .input-group-append{
+    button[type=submit]{
+      padding-left: 2.1875rem;
+      padding-right: 2.1875rem;
+
+      img{
+        @include transform(rotate(-90deg));
+      }
+    }
+  }
+}

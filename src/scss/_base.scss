@@ -1,10 +1,29 @@
 html, body{
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   padding:0;
   margin:0;
   color: $cor-neutra;
   font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  background-color: #f4f4f4;
+  padding: 3.125rem 0;
+}
+
+.lazy-img{
+
+  img{
+    opacity: 0;
+    visibility: hidden;
+
+    &.loaded{
+      visibility: visible;
+      opacity: 1;
+      @include transition(all 1.5s ease-out);
+    }
+  }
 }
 
 section{
@@ -32,6 +51,18 @@ section{
 }
 .cor-w{
   color: white
+}
+.bg-cor-primaria{
+  background-color: $cor-primaria
+}
+.bg-cor-secundaria{
+  background-color: $cor-secundaria
+}
+.bg-cor-neutra{
+  background-color: $cor-neutra
+}
+.bg-cor-w{
+  background-color: white
 }
 
 
@@ -68,19 +99,46 @@ h2{
   padding-right: 4.0625rem;
   @include border-radius(0);
 
-  &.btn-primary{
+  &.btn-primary,
+  &.btn-primary:active,
+  &.btn-primary:visited{
     background-color: $cor-secundaria;
     border-color: $cor-secundaria;
     color: white;  
 
     &:hover,
     &:focus{
-      background-color: lighten($cor-secundaria, 5%)
+      background-color: lighten($cor-secundaria, 15%)
+    }
+    &:active{
+      background-color: darken($cor-secundaria, 10%)
     }
   }
   &.btn-link{
     padding-left: 0;
+    padding-right: 0.125rem;
+    position: relative;
 
+    &:hover,
+    &:focus{
+      text-decoration: none;
+
+      &::after{
+        width: 100%;
+        left: 0;
+      }
+    }
+
+    &::after{
+      content: " ";
+      position: absolute;
+      bottom: -0.125rem;
+      left: 50%;
+      width: 0;
+      height: 0.125rem;
+      background-color: $cor-primaria;
+      @include transition(all .3s ease-out);
+    }
   }
   
   > span.ico-arrow{

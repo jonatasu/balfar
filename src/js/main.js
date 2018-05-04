@@ -1,3 +1,11 @@
+AOS.init({
+  offset: 150,
+  duration: 1200,
+  easing: 'ease-in-ou',
+  delay: 100,
+  disable: 'mobile'
+});
+
 const isOnScreen = element => {
   let win = $(window);
 
@@ -21,16 +29,17 @@ $(document).ready(function () {
     $(this).scrollTop() > 100 ? $('.back-to-top').fadeIn('slow') : $('.back-to-top').fadeOut('slow');
   });
 
+  var headerHeight = $('#topbar').height() + $('#header-sticky-wrapper').height();
+
   $('.scroll-to-it').click(function(e){
     e.preventDefault();
     let elem = $(this);
 
     if( elem.attr('href') != "" && elem.attr('href').charAt(0) == '#'){
       let it = $($(this).attr('href'));
-      let headerHeight = $('#topbar').height() + $('#header-sticky-wrapper').height();
-
+      
       if( it.length > 0 ){
-        $('html, body').animate({scrollTop : (it.offset().top + headerHeight)}, 1500, 'easeInOutExpo');
+        $('html, body').animate({scrollTop : (it.offset().top + headerHeight)}, 1500);
         return false;
       }
     }    
@@ -61,7 +70,11 @@ $(document).ready(function () {
     return false;
   });
 
-  const mudarEtapa = etapa => $('.etapas:not(.d-none)').addClass('d-none') && $(etapa).removeClass('d-none');
+  const mudarEtapa = etapa => {
+    $('.etapas').hide() && $(etapa).fadeIn('slow') && $('.etapas').removeClass('d-none');
+    let it = $('.calculadora-web');
+    $('html, body').animate({scrollTop : (it.offset().top - (headerHeight/2))}, 1000);
+  };
 
   const loadImgs = _ => {
     $.each( $('.lazy-img'), function(){

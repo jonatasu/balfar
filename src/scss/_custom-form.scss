@@ -1,0 +1,48 @@
+.contato-full{
+  .app-form{
+    h2{
+      line-height: 40px
+    }
+    h3{
+      font-size: 1.875rem;
+    }
+    p{
+      font-size: 1.125rem;
+    }
+
+    .custom-select,
+    .form-group{
+      margin: 0 0 1.25rem
+    }
+  }
+  .telefones,
+  .enderecos{    
+    padding-right: 2.8125rem;    
+
+    a{
+      display: block;
+      margin-bottom: 0.625rem;
+      font-size: 1.125rem;
+      line-height: 1.25rem;
+      color: $cor-primaria;
+      text-decoration: none;
+      padding: 0 0.9375rem 0.625rem 0;
+      border-right: 2px solid transparent;
+      border-bottom: 3px solid transparent;
+      @include transition(border-color .4s linear);
+
+      &:hover,
+      &:focus{
+        text-decoration: none;
+        border-color: lighten($cor-primaria, 15%);
+      }
+    }
+  }
+  .enderecos{
+    margin: 5rem 0 0;
+    background: transparent url(../img/icone-contato-info-enderecos-min.png) top right no-repeat;
+  }
+  .telefones{
+    background: transparent url(../img/icone-contato-info-telefones-min.png) top right no-repeat;
+  }
+}
