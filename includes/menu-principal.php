@@ -7,11 +7,11 @@
     </div>
     <div class="right-side pull-right">
       <div class="d-inline-block contact-info">
-        Central de atendimento <a href="tel:+554430000000">+55 44 3000.0000</a>
+        Central de atendimento <a href="tel:+554430000000" title="ligar para +55(44)3000-0000" target="_blank">+55 44 3000.0000</a>
       </div>
       <div class="d-inline-block social-links">
-        <a href="#" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/BalfarSolar/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/BalfarSolar/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
     </div>
 
