@@ -13,6 +13,40 @@ article{
     font-size: 1.5625rem;
     line-height: 1.875rem;
     padding: 0.625rem 1.5625rem;
-  }  
+  }
+  .list-group{
+    .list-group-item{
+      @include border-radius(0);
+      text-transform: uppercase;
+
+      &.active{
+        background-color: #ffffff;
+        color: $cor-secundaria;
+        border: 1px solid rgba(0,0,0,.125);
+      }
+    }
+  }
+  .pagination{
+    justify-content: center;
+
+    .page-item{
+      .page-link{
+        border-color: transparent;
+        background-color: transparent;
+        color: $cor-neutra;
+      }
+
+      &.active,
+      &:hover,
+      &:focus{
+        .page-link{
+          color: $cor-secundaria;
+        }
+      }
+      &:hover{
+        border-top-color: #dedede;
+      }
+    }
+  }
 }
 @import "estrutura__rodape";

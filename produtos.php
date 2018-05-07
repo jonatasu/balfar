@@ -11,19 +11,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h5 class="text-uppercase mb-5">Categorias</h5>
-          <div class="list-group">
-            <a href="#" class="list-group-item active">Painel</a>
-            <a href="#" class="list-group-item">Fotovoltaico</a>
-            <a href="#" class="list-group-item">Estrutura de fixação</a>
-            <a href="#" class="list-group-item">Inversor</a>
-            <a href="#" class="list-group-item">Kits</a>
-            <a href="#" class="list-group-item">String box</a>
-            <a href="#" class="list-group-item">Cabo solar</a>
-            <a href="#" class="list-group-item">Conector MC4</a>
-            <a href="#" class="list-group-item">Monitoramento</a>
-            <a href="#" class="list-group-item">Destaques</a>
-          </div>
+          <?php include 'includes/lista-categorias.php' ?>
         </div>
         <div class="col-md-9">
           <h5 class="text-uppercase text-center mb-5">Destaques</h5>
@@ -46,6 +34,11 @@
 
             <?php } ?>
 
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <?php include 'includes/lista-categorias.php' ?>
+            </div>
           </div>
         </div>
       </div>
