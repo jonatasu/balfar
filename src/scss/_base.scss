@@ -53,6 +53,12 @@ section{
   padding-top: 4.0625rem;
   padding-bottom: 4.0625rem;
 }
+article{
+  section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
 
 .d-flex{
   &.direction-column{

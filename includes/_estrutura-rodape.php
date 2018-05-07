@@ -1,4 +1,10 @@
-  
+    </article>
+    <?php
+      if( empty($home) ){
+        include 'includes/contato-atalhos.php';
+      }
+    ?>
+  </div>
   <footer>
     <div class="container ">
       <div class="row align-items-center justify-content-between">
@@ -22,7 +28,10 @@
   <script src="src/js/bootstrap.min.js"></script>
   <script src="node_modules/aos/dist/aos.js"></script>
   <?php
-    if($home) echo '<script src="https://apis.google.com/js/api.js"></script>';
+    if( !empty($home) ) echo '<script src="https://apis.google.com/js/api.js"></script>';
+    if( !empty($gallery_script) )
+      echo '<script src="src/js/lightbox.min.js"></script>';
+      echo '<script src="src/js/lightbox.min.map"></script>';
   ?>
   <script src="src/js/main.js"></script>
 </body>

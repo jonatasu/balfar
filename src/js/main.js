@@ -1,9 +1,10 @@
 AOS.init({
   offset: 150,
   duration: 1200,
-  easing: 'ease-in-ou',
+  easing: 'ease-in-out',
   delay: 100,
-  disable: 'mobile'
+  disable: 'mobile',
+  once: true
 });
 
 const isOnScreen = element => {

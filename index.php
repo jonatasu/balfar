@@ -3,10 +3,6 @@
 
   include 'includes/_estrutura-topo.php';
 ?>
-<div id="wrapper">
-
-  <?php // MENU PRINCIPAL ?>
-  <?php include 'includes/menu-principal.php'; ?>
   
   <?php // BANNER ?>
   <section class="banner">
@@ -134,5 +130,4 @@
   <?php // CONTATO - FULL FORM ?>
   <?php include 'includes/contato-form-map.php'; ?>
 
-</div>
 <?php include 'includes/_estrutura-rodape.php'; ?>

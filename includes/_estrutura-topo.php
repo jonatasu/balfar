@@ -23,5 +23,15 @@
   <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="src/css/main.min.css">
   
+  <?php
+    if( !empty($gallery_script) ) echo '<link rel="stylesheet" type="text/css" media="screen" href="src/css/lightbox.min.css">';
+  ?>
+  
 </head>
 <body <?php if( !empty($home) ){ echo 'class="home"'; } else if( !empty($pagina) ){ echo 'class="'.$pagina.'"'; } ?>>
+  <div id="wrapper">
+    
+    <?php // MENU PRINCIPAL ?>
+    <?php include 'includes/menu-principal.php'; ?>
+
+    <article>
