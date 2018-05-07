@@ -45,6 +45,10 @@ $(document).ready(function () {
     }    
   });
 
+  $('.carousel').on('slid.bs.carousel', function () {
+    loadImgs();
+  });
+
   // Stick the header at top on scroll
   $("#header").sticky({topSpacing:0, zIndex: '50'});
 
@@ -70,10 +74,20 @@ $(document).ready(function () {
     return false;
   });
 
+  $('.calculadora-web').on('click', 'a.local', function (e) {
+    e.preventDefault();
+    !$(this).hasClass('selecionado') && $('a.local.selecionado').removeClass('selecionado') && $(this).addClass('selecionado');
+  
+    $('.form-content:visible').hide();
+  
+    $('#' + $(this).data('local')).fadeIn('fast');
+  
+  });
+
   const mudarEtapa = etapa => {
     $('.etapas').hide() && $(etapa).fadeIn('slow') && $('.etapas').removeClass('d-none');
     let it = $('.calculadora-web');
-    $('html, body').animate({scrollTop : (it.offset().top - (headerHeight/2))}, 1000);
+    $('html, body').animate({scrollTop : ( $(window).width() <= 768 ? ($('.etapas:visible').offset().top - headerHeight) : (it.offset().top - (headerHeight/2)) )   }, 1000);
   };
 
   const loadImgs = _ => {
