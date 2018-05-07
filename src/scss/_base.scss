@@ -168,6 +168,14 @@ h2{
       background-color: $cor-primaria;
       @include transition(all .3s ease-out);
     }
+
+    &.btn-link-detalhes{
+      color: lighten($cor-neutra, 15%);
+
+      &::after{
+        content: null
+      }
+    }
   }
   
   > span.ico-arrow{

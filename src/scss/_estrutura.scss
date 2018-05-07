@@ -1,3 +1,18 @@
 @import "estrutura__topo";
-
+article{
+  header{
+    &.internas{
+      background: $cor-primaria url('../img/header-bg-internas-min.jpg') repeat-x top center;
+      background-size: cover;
+      padding: 3.75rem 0;
+    }
+  }
+  h5{
+    background-color: #eeeeee;
+    color: $cor-primaria;
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+    padding: 0.625rem 1.5625rem;
+  }  
+}
 @import "estrutura__rodape";
