@@ -3,6 +3,11 @@
     background: $cor-neutra url('../img/video-bg-min.jpg') no-repeat top center;
     background-size: cover;
     color: #FFFFFF;
-    padding: 8.125rem 0
+    padding: 8.125rem 0;
+
+    iframe{
+      margin: 1.25rem auto;
+      max-width: 100%;
+    }
   }
 }

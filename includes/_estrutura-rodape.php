@@ -2,12 +2,12 @@
   <footer>
     <div class="container ">
       <div class="row align-items-center justify-content-between">
-        <div class="col-sm">
+        <div class="col-md">
           <a href="" id="footer_logo" class="lazy-img">
             <img data-src="src/img/balfar-logo-min.png" alt="logo Balfar">
           </a>
         </div>
-        <div class="col-sm text-right">
+        <div class="col-md text-right">
           <p class="cor-primaria m-0">
             Todos os direitos reservados 2018 - Balfar Solar
           </p>

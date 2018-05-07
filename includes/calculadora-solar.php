@@ -8,7 +8,7 @@
     </div>
     <hr class="mt-5 mb-5">
     <div class="row d-flex align-items-stretch">
-      <div class="col-sm-7 pb-4">
+      <div class="col-md-7 pb-4">
         <div id="etapa1" class="etapas">
           <form class="app-form" action="#etapa2" method="post">
             <div class="form-group">
@@ -92,7 +92,7 @@
                   (Você pode mover a barra com o mouse<?php // ou clicar e editar o valor;?>)
                 </p>
                 <div class="custom-range">
-                  <img src="src/img/app/ico-light-blue-small-min.png" alt="">
+                  <img src="src/img/app/ico-light-blue-mdall-min.png" alt="">
 
                   <div class="range">
                     <input id="fdl_gasto" type="range" value="0" min="0" max="3500">
@@ -185,7 +185,7 @@
             <img data-src="src/img/app/invest-UP-min.png" alt="icone - retorno positivo">
             <p class="info"><strong>Seu investimento no sistema votaico é de R$ 150.000,00.<br>Rendimento de 19%</strong></p>
             <img data-src="src/img/app/invest-DOWN-min.png" alt="icone - retorno negativo">
-            <p class="info"><strong>O mesmo valor investido na Caderneta de Poupança.<br>Rendimento de 8,3%</strong></p>
+            <p class="info"><strong>O memdo valor investido na Caderneta de Poupança.<br>Rendimento de 8,3%</strong></p>
           </div>
           <p>
             Os resultados apresentados podem variar de acordo com as informações fornecidas. Fatores como sombreamento, inclinação do telhado e outras interferências podem variar na produção de energia do sistema fotovoltaico.
@@ -219,7 +219,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 offset-sm-1 d-xs-none d-flex direction-column justify-content-end text-center">
+      <div class="col-md-4 offset-md-1 d-xs-none d-flex direction-column justify-content-end text-center">
         <p class="lead text-uppercase cor-neutra pb-5">
           <strong>Se preferir baixe nossa calculadora solar na Apple Store ou Google Play</strong>
         </p>        

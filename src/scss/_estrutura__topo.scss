@@ -1,10 +1,18 @@
 #topbar{
   background-color: $cor-secundaria;
   color: white;
-  height: 2.125rem;
+  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
   line-height: 2.125rem;
+
+  @include media-breakpoint-up(sm){
+    height: 2.125rem;
+    padding: 0;
+  }
+  @include media-breakpoint-down(sm){
+    padding: 0.625rem 0;
+  }
 
   a{
     text-decoration: none;
@@ -43,16 +51,49 @@
 }
 #header-sticky-wrapper{
   #header{
-    background: #FFF url('../img/header-bg-min.png') no-repeat -255px -35px;
+    position: relative;
+    background-color: #FFFFFF;
+    z-index: 2;
+    @include media-breakpoint-up(sm){
+      background: #FFF url('../img/header-bg-min.png') no-repeat -15.9375rem -2.1875rem;
+    }
     max-height: 6.3125rem;
     @include box-shadow();
+
+    @include media-breakpoint-down(sm){
+      .pull-left,
+      .pull-right{
+        float:none !important
+      }
+    }
+
+    .navbar-toggler {
+      position: absolute;
+      top: 1.125rem;
+      left: 0.9375rem;
+      font-size: 2.5em;
+      color: $cor-primaria;
+    }
 
     #logo{
       width: 100%;
       max-width: 12.375rem;
-      margin: 0.9375rem 0;
+      margin: 0 auto;
+      padding: 0.9375rem 0;
+      position: relative;
+      z-index: 1;
     }
 
+    @include media-breakpoint-down(sm){
+      .navbar-collapse{
+        background-color: #FFF;
+        position: fixed;
+        top: 8rem;
+        left: 0;
+        width: 100vw;
+        padding: 25px;
+      }
+    }
     .navbar-nav{
       padding: 1.5625rem 0;
 
@@ -70,6 +111,14 @@
           color: $cor-neutra;
           font-size: 1rem;
 
+          @include media-breakpoint-down(sm){
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            line-height: 2.5rem;
+            margin: .4em .2em;
+            font-weight: 600;
+          }
+
           &:hover,&:focus{
             color: darken($cor-primaria, 10%)
           }
@@ -78,8 +127,19 @@
     }
 
     .cart-and-search{
+      @include media-breakpoint-down(sm){
+        position: absolute;
+        top: 1.25rem;
+        right: 0.9375rem;
+      }
+
       a{
-        font-size: 1.6rem;
+        @include media-breakpoint-up(sm){
+          font-size: 1.6rem;
+        }
+        @include media-breakpoint-down(sm){
+          font-size: 2rem;
+        }
         color: $cor-primaria;
 
         &:last-child{
@@ -93,6 +153,12 @@
           color: lighten($cor-primaria, 20%)
         }
       }
+    }
+  }
+
+  &.is-sticky{
+    .navbar-collapse{
+      top: 5rem !important;
     }
   }
 }

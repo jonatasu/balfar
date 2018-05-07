@@ -3,7 +3,7 @@
     <h2 class="cor-w text-uppercase">Produtos Balfar Solar</h2>
     <span class="detalhe-dots cor-secundaria"></span><br>    
   </div>
-  <div class="d-none d-xs-block">
+  <div class="d-block d-sm-none">
     <div class="container">
       <div id="carouselProdutosDestaque" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
@@ -61,10 +61,10 @@
       </div>
     </div>
   </div>
-  <div class="d-none d-sm-block">
+  <div class="d-none d-md-block">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-01-min.jpg" alt=""> </div>
             <div class="card-body">
@@ -73,7 +73,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-02-min.jpg" alt=""> </div>
             <div class="card-body">
@@ -82,7 +82,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-03-min.jpg" alt=""> </div>
             <div class="card-body">
@@ -91,7 +91,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-04-min.jpg" alt=""> </div>
             <div class="card-body">

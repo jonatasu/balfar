@@ -3,6 +3,13 @@
   background-size: cover;
 
   .card{
+    @include media-breakpoint-down(sm){
+      .card-img-top{
+        width: 8.9375rem;
+        align-self: center;
+      }
+    }
+
     .card-title{
       font-size: 1.5625rem;
       color: white;

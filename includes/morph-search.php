@@ -4,7 +4,7 @@
     <button class="morphsearch-submit" type="submit">Buscar</button>
   </form>
   <div class="morphsearch-content">
-    <div class="dummy-column">
+    <div class="d-none d-sm-block dummy-column">
       <h2>Últimas do Blog</h2>
       <a class="lazy-img dummy-media-object" href="blog-post.php">
         <img data-src="src/img/post-thumb-sample-min.jpg" alt="post cover"/>
@@ -32,7 +32,7 @@
       </a>
     </div>
     <div class="dummy-column">
-      <h2>Popular</h2>
+      <h2>Produtos</h2>
       <a class="lazy-img dummy-media-object" href="produto.php">
         <img data-src="src/img/produto-thumb-01-min.jpg" alt="PagePreloadingEffect"/>
         <h3>Page Preloading Effect</h3>

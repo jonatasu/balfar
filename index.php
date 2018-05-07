@@ -12,17 +12,20 @@
   <section class="banner">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-md-5 d-xs-none lazy-img" data-aos="fade-in" data-delay="800">
+        <div class="col-md-6 col-lg-5 d-none d-md-block lazy-img" data-aos="fade-in" data-delay="800">
           <img data-src="src/img/banner-iphone-min.png" alt="Balfar app rodando em um iphone">
         </div>
-        <div class="col-sm-6 col-md-7 d-flex direction-column justify-content-center" data-aos="fade-in" data-aos-delay="1200">
+        <div class="col-md-6 col-lg-7 d-flex direction-column justify-content-center" data-aos="fade-in" data-aos-delay="1200">
           <div class="text-right">
             <h2>Mais economia para sua vida!</h2>
             <span class="detalhe-dots cor-secundaria"></span><br>
             <p class="fs30">Baixe nossa calculadora solar na Apple Store ou Google Play e veja o melhor sistema para a sua casa ou empresa.</p>
             <a class="btn btn-primary" href="#" role="button">Clique aqui</a>
           </div>
-        </div>      
+        </div>
+        <div class="col-10 offset-1 d-block d-md-none mt-5 lazy-img">
+          <img class="img-fluid" data-src="src/img/calculadora-half-iphone-min.png" alt="">
+        </div>
       </div>
     </div>
   </section>
@@ -33,7 +36,7 @@
       <h2 class="cor-w">Mais economia para sua vida!</h2>
       <span class="detalhe-dots cor-primaria"></span><br>
       <div class="row card-columns mt-4">
-        <div class="col-xs-12 col-sm" data-aos="fade-up" data-aos-delay="500">
+        <div class="col-12 col-sm-6 col-md-2 offset-md-1 col-xl offset-xl-0" data-aos="fade-up" data-aos-delay="500">
           <div class="card lazy-img">
             <img class="card-img-top" data-src="src/img/icone-pq-01-sustentavel-min.png" alt="">
             <div class="card-body">
@@ -42,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm" data-aos="fade-up" data-aos-delay="800">
+        <div class="col-12 col-sm-6 col-md-2 col-xl" data-aos="fade-up" data-aos-delay="800">
           <div class="card lazy-img">
             <img class="card-img-top" data-src="src/img/icone-pq-02-baixa-mnt-min.png" alt="">
             <div class="card-body">
@@ -51,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm" data-aos="fade-up" data-aos-delay="1100">
+        <div class="col-12 col-sm-6 col-md-2 col-xl" data-aos="fade-up" data-aos-delay="1100">
           <div class="card lazy-img">
             <img class="card-img-top" data-src="src/img/icone-pq-03-economico-min.png" alt="">
             <div class="card-body">
@@ -60,7 +63,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm" data-aos="fade-up" data-aos-delay="1400">
+        <div class="col-12 col-sm-6 col-md-2 col-xl" data-aos="fade-up" data-aos-delay="1400">
           <div class="card lazy-img">
             <img class="card-img-top" data-src="src/img/icone-pq-04-viavel-min.png" alt="">
             <div class="card-body">
@@ -69,7 +72,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm" data-aos="fade-up" data-aos-delay="1700">
+        <div class="col-12 col-sm-6 col-md-2 col-xl" data-aos="fade-up" data-aos-delay="1700">
           <div class="card lazy-img">
             <img class="card-img-top" data-src="src/img/icone-pq-05-acessivel-min.png" alt="">
             <div class="card-body">
@@ -98,7 +101,7 @@
           </p>
         </div>
         <div class="col-sm lazy-img" data-aos="fade-up" data-delay="400">
-          <img data-src="src/img/painel-solar-min.jpg" alt="painel solar">
+          <img class="img-fluid" data-src="src/img/painel-solar-min.jpg" alt="painel solar">
         </div>
       </div>
     </div>    
@@ -108,11 +111,11 @@
   <section class="video text-center" data-aos="fade-in">
     <div class="container-fluid">
       <h2 class="mb-5">Lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
-      <a class="lazy-img" data-ytid="BGaNF48FHMI" href="http://www.youtube.com/watch_popup?v=BGaNF48FHMI" title="assistir Lorem Ipsum">
+      <a class="d-none d-sm-block lazy-img" data-ytid="BGaNF48FHMI" href="http://www.youtube.com/watch_popup?v=BGaNF48FHMI" title="assistir Lorem Ipsum">
         <img data-src="src/img/icone-youtube-play-min.png" alt="">
       </a>
-      <iframe class="d-none d-xs-block" width="640" height="360" src="https://www.youtube.com/embed/BGaNF48FHMI" frameborder="0"></iframe>
-      <div class="d-none d-sm-block" id="ytplayer"></div>
+      <iframe class="d-block d-sm-none" width="640" height="360" src="https://www.youtube.com/embed/BGaNF48FHMI" frameborder="0"></iframe>
+      <div class="d-none d-md-block" id="ytplayer"></div>
     </div>
   </section>
 

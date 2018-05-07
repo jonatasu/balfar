@@ -5,11 +5,34 @@ html, body{
   margin:0;
   color: $cor-neutra;
   font-family: 'Montserrat', sans-serif;
+
+  @include media-breakpoint-down(sm){
+    font-size: 12px;
+  }
+  @include media-breakpoint-up(sm){
+    font-size: 14px;
+  }
+  @include media-breakpoint-up(md){
+    font-size: 15px;
+  }
+  @include media-breakpoint-up(xl){
+    font-size: 16px;
+  }
 }
 
 footer{
   background-color: #f4f4f4;
   padding: 3.125rem 0;
+
+  @include media-breakpoint-down(sm){
+    &, p{
+      text-align: center!important;
+    }
+
+    img{
+      margin: 1.875rem 0
+    }
+  }
 }
 
 .lazy-img{

@@ -1,4 +1,4 @@
-<section id="topbar" class="d-none d-lg-block p-0">
+<section id="topbar">
   <div class="container clearfix">
 
     <div class="contact-info left-side pull-left">
@@ -7,7 +7,7 @@
     </div>
     <div class="right-side pull-right">
       <div class="d-inline-block contact-info">
-        Central de atendimento <a href="tel:+554430000000" title="ligar para +55(44)3000-0000" target="_blank">+55 44 3000.0000</a>
+        <span class="d-none d-md-block">Central de atendimento <a href="tel:+554430000000" title="ligar para +55(44)3000-0000" target="_blank">+55 44 3000.0000</a></span>
       </div>
       <div class="d-inline-block social-links">
         <a href="https://www.facebook.com/BalfarSolar/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -20,14 +20,18 @@
 <div id="header-sticky-wrapper" class="sticky-wrapper">
   <header id="header">
     <div class="container clearfix">
+      <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
 
       <div id="logo" class="pull-left left-side">
         <h1><a <?php if( !empty($home) ) { echo 'href="#body" class="scrollto"'; } else { echo 'href="index.php"'; } ?> title="Homepage"><img class="img-fluid" src="src/img/balfar-logo-min.png" alt="Balfar Solar - logo"></a></h1>
       </div>
 
+
       <div class="right-side pull-right">
         <nav id="nav-menu-container" class="navbar navbar-expand-md d-inline-block">
-          <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav pull-right" style="touch-action: pan-y;">
               <li class="nav-item<?php if( !empty($home) ) {echo ' active';} ?>"><a <?php if( !empty($home) ) { echo 'href="#body"'; } else { echo 'href="index.php"'; } ?> class="nav-link">Home</a></li>
               <li class="nav-item<?php if( !empty($pagina) && $pagina == 'quem-somos') {echo ' active';} ?>"><a href="quem-somos.php" class="nav-link">Quem somos</a></li>
