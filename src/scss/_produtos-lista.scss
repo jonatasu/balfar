@@ -29,3 +29,15 @@
     }
   }
 }
+.estrutura-produto{
+  .bigger-pic{
+    text-align: center;
+    position: relative;
+
+    .share-btn{
+      position: absolute;
+      top: 0.3125rem;
+      right: 0.3125rem;
+    }
+  }
+}

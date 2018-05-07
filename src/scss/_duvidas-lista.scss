@@ -1,0 +1,50 @@
+.estrutura-duvidas{
+  .accordion{
+    .card{
+      border-bottom: 1px solid #ebebeb;
+
+      .card-header{
+        &,h3{
+          margin: 0;
+          padding: 0;
+          background-color: #FFFFFF;
+
+          .btn{
+            &.btn-accordion{
+              font-size: 1.5625rem;
+              padding: 0.625rem 2.8125rem 0.625rem 0.3125rem;
+              text-align: left;
+              background-color: #FFFFFF;
+              color: $cor-primaria;
+              position: relative;
+              
+              span.arrow {
+                background-image: url('../img/app/arrow-yellow-to-right-min.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                display:block;
+                width: 42px;
+                height: 42px;
+                position: absolute;
+                top: 0.5rem;
+                right: 0;
+                @include transform(rotate(-90deg));
+                @include transition(transform .3s linear);
+              }
+              &.collapsed{
+                span.arrow{
+                  @include transform(rotate(90deg));
+                }
+              }
+
+              &:focus{
+                outline: 0 none;
+                @include box-shadow(0, 0, 0, 0, transparent);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

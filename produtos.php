@@ -38,8 +38,8 @@
                   </div>
                   <div class="card-body">
                     <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>                
-                    <a class="btn btn-link btn-link-detalhes btn-block" href="#" role="button">[Ver detalhe]</a>
-                    <a class="btn btn-primary btn-block fs20" href="#" role="button"><strong>Adicionar ao orçamento</strong></a>
+                    <a class="btn btn-link btn-link-detalhes btn-block" href="produto.php" role="button">[Ver detalhe]</a>
+                    <a class="btn btn-primary btn-block" href="#" role="button"><strong>Adicionar ao orçamento</strong></a>
                   </div>
                 </div>
               </div>
