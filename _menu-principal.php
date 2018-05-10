@@ -25,7 +25,7 @@
       </button>
 
       <div id="logo" class="pull-left left-side">
-        <h1><a <?php if( !empty($home) ) { echo 'href="#body" class="scrollto"'; } else { echo 'href="index.php"'; } ?> title="Homepage"><img class="img-fluid" src="src/img/balfar-logo-min.png" alt="Balfar Solar - logo"></a></h1>
+        <h1><a <?php if( !empty($home) ) { echo 'href="#body" class="scrollto"'; } else { echo 'href="index.php"'; } ?> title="Homepage"><img class="img-fluid" src="assets/img/balfar-logo-min.png" alt="Balfar Solar - logo"></a></h1>
       </div>
 
 
@@ -49,7 +49,7 @@
           <a href="#" class="search"><i class="fa fa-search"></i></a>
         </div>
       </div>
-      <?php include 'includes/morph-search.php'; ?>
+      <?php include '_morph-search.php'; ?>
     </div>
   </header>
 </div>

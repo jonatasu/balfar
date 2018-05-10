@@ -21,10 +21,10 @@
 
   <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
   <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="src/css/main.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.min.css">
   
   <?php
-    if( !empty($gallery_script) ) echo '<link rel="stylesheet" type="text/css" media="screen" href="src/css/lightbox.min.css">';
+    if( !empty($gallery_script) ) echo '<link rel="stylesheet" type="text/css" media="screen" href="assets/css/lightbox.min.css">';
   ?>
   
 </head>
@@ -32,6 +32,6 @@
   <div id="wrapper">
     
     <?php // MENU PRINCIPAL ?>
-    <?php include 'includes/menu-principal.php'; ?>
+    <?php include '_menu-principal.php'; ?>
 
     <article>

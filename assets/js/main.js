@@ -85,6 +85,14 @@ $(document).ready(function () {
   
   });
 
+  $('.gal-peq').on('click', '.athumb', function(e){
+    e.preventDefault();
+    $('.bigger-pic div.lazy-img img').attr({
+      'src': $(this).attr('href'),
+      'data-src': $(this).attr('href')
+    });
+  });
+
   const mudarEtapa = etapa => {
     $('.etapas').hide() && $(etapa).fadeIn('slow') && $('.etapas').removeClass('d-none');
     let it = $('.calculadora-web');
@@ -96,7 +104,7 @@ $(document).ready(function () {
       let block = $(this);
       let img = block.find('img');
 
-      if( isOnScreen(block) ){
+      if( isOnScreen(block) && !img.hasClass('loaded') ){
         let imgUrl = img.data('src');
 
         if( img.attr('src') != imgUrl ){

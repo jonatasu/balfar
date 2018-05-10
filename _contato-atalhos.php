@@ -4,7 +4,7 @@
       <div class="card-group text-center">
         <div class="card lazy-img" data-aos="fade-up" data-aos-delay="500">
           <div class="card-img-top">
-            <img data-src="src/img/icon-contact-shortcut-01-whatsapp-min.png" alt="icone Whatsapp">
+            <img data-src="assets/img/icon-contact-shortcut-01-whatsapp-min.png" alt="icone Whatsapp">
           </div>
           <div class="card-body">
             <h4 class="card-title">Atendimento pelo Whatsapp</h4>
@@ -13,7 +13,7 @@
         </div>
         <div class="card lazy-img" data-aos="fade-up" data-aos-delay="800">
           <div class="card-img-top">
-            <img data-src="src/img/icon-contact-shortcut-02-telephone-min.png" alt="icone telefone">
+            <img data-src="assets/img/icon-contact-shortcut-02-telephone-min.png" alt="icone telefone">
           </div>
           <div class="card-body">
             <h4 class="card-title">Nós ligamos para você</h4>
@@ -22,7 +22,7 @@
         </div>
         <div class="card lazy-img" data-aos="fade-up" data-aos-delay="1100">
           <div class="card-img-top">
-            <img data-src="src/img/icon-contact-shortcut-03-company-min.png" alt="icone empresa">
+            <img data-src="assets/img/icon-contact-shortcut-03-company-min.png" alt="icone empresa">
           </div>
           <div class="card-body">
             <h4 class="card-title">Conheça a Balfar Solar</h4>
@@ -31,7 +31,7 @@
         </div>
         <div class="card lazy-img" data-aos="fade-up" data-aos-delay="1400">
           <div class="card-img-top">
-            <img data-src="src/img/icon-contact-shortcut-04-calendar-min.png" alt="icone agenda">
+            <img data-src="assets/img/icon-contact-shortcut-04-calendar-min.png" alt="icone agenda">
           </div>
           <div class="card-body">
             <h4 class="card-title">Horário de atendimento</h4>

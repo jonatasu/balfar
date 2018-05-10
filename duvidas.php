@@ -1,6 +1,6 @@
 <?php
   $pagina = 'duvidas';
-  include 'includes/_estrutura-topo.php';
+  include '__estrutura-topo.php';
 ?>
 
   <header class="internas text-center">
@@ -34,4 +34,4 @@
     </div>
   </section>
   
-<?php include 'includes/_estrutura-rodape.php'; ?>
+<?php include '__estrutura-rodape.php'; ?>

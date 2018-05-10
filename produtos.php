@@ -1,6 +1,6 @@
 <?php
   $pagina = 'produtos';
-  include 'includes/_estrutura-topo.php';
+  include '__estrutura-topo.php';
 ?>
 
   <header class="internas text-center">
@@ -11,7 +11,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <?php include 'includes/lista-categorias.php' ?>
+          <?php include '_lista-categorias.php' ?>
         </div>
         <div class="col-md-9">
           <h5 class="text-uppercase text-center mb-5">Destaques</h5>
@@ -22,7 +22,7 @@
               <div class="col-md-4">
                 <div class="card text-center mb-5">
                   <div class="card-img-top lazy-img">
-                    <img data-src="src/img/produto-thumb-01-min.jpg" alt="">
+                    <img data-src="assets/img/produto-thumb-01-min.jpg" alt="">
                   </div>
                   <div class="card-body">
                     <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>                
@@ -37,7 +37,7 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <?php include 'includes/lista-categorias.php' ?>
+              <?php include '_lista-categorias.php' ?>
             </div>
           </div>
         </div>
@@ -45,4 +45,4 @@
     </div>
   </section>
   
-<?php include 'includes/_estrutura-rodape.php'; ?>
+<?php include '__estrutura-rodape.php'; ?>

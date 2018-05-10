@@ -60,24 +60,24 @@
               <div class="row">
                 <div class="col">
                   <a class="local selecionado" data-local="residencial" href="#residencial" title="Residencial">
-                    <img class="normal" src="src/img/app/ico-res-blue-min.png" alt="icone residencia - azul">
-                    <img class="hover" src="src/img/app/ico-res-yellow-min.png" alt="icone residencia - amarelo">
+                    <img class="normal" src="assets/img/app/ico-res-blue-min.png" alt="icone residencia - azul">
+                    <img class="hover" src="assets/img/app/ico-res-yellow-min.png" alt="icone residencia - amarelo">
                     <br>
                     Residencial
                   </a>
                 </div>
                 <div class="col">
                   <a class="local" data-local="empresarial" href="#empresarial" title="Empresarial">
-                    <img class="normal" src="src/img/app/ico-emp-blue-min.png" alt="icone empresa - azul">
-                    <img class="hover" src="src/img/app/ico-emp-yellow-min.png" alt="icone empresa - amarelo">
+                    <img class="normal" src="assets/img/app/ico-emp-blue-min.png" alt="icone empresa - azul">
+                    <img class="hover" src="assets/img/app/ico-emp-yellow-min.png" alt="icone empresa - amarelo">
                     <br>
                     Empresarial
                   </a>
                 </div>
                 <div class="col">
                   <a class="local" data-local="outros" href="#outros" title="Outros">
-                    <img class="normal" src="src/img/app/ico-out-blue-min.png" alt="icone outros - azul">
-                    <img class="hover" src="src/img/app/ico-out-yellow-min.png" alt="icone outros - amarelo">
+                    <img class="normal" src="assets/img/app/ico-out-blue-min.png" alt="icone outros - azul">
+                    <img class="hover" src="assets/img/app/ico-out-yellow-min.png" alt="icone outros - amarelo">
                     <br>
                     Outros
                   </a>
@@ -92,14 +92,14 @@
                   (Você pode mover a barra com o mouse<?php // ou clicar e editar o valor;?>)
                 </p>
                 <div class="custom-range">
-                  <img src="src/img/app/ico-light-blue-mdall-min.png" alt="">
+                  <img src="assets/img/app/ico-light-blue-mdall-min.png" alt="">
 
                   <div class="range">
                     <input id="fdl_gasto" type="range" value="0" min="0" max="3500">
                     <output for="fdl_gasto" onforminput="value = fdl_gasto.valueAsNumber;"></output>
                   </div>
 
-                  <img src="src/img/app/ico-light-blue-big-min.png" alt="">
+                  <img src="assets/img/app/ico-light-blue-big-min.png" alt="">
                 </div>
               </div>
               <div class="form-group">
@@ -182,9 +182,9 @@
           <br>
           <p class="info">Comparativos de investimentos</p>
           <div class="blue-box text-center lazy-img">
-            <img data-src="src/img/app/invest-UP-min.png" alt="icone - retorno positivo">
+            <img data-src="assets/img/app/invest-UP-min.png" alt="icone - retorno positivo">
             <p class="info"><strong>Seu investimento no sistema votaico é de R$ 150.000,00.<br>Rendimento de 19%</strong></p>
-            <img data-src="src/img/app/invest-DOWN-min.png" alt="icone - retorno negativo">
+            <img data-src="assets/img/app/invest-DOWN-min.png" alt="icone - retorno negativo">
             <p class="info"><strong>O memdo valor investido na Caderneta de Poupança.<br>Rendimento de 8,3%</strong></p>
           </div>
           <p>
@@ -203,14 +203,14 @@
             <strong>Ou se preferir liga pra gente!</strong>
             <br>
             <a class="bt bt-tel lazy-img" href="tel:+554430293655" title="ligar para +55 (44) 3029-3655">
-              <img data-src="src/img/app/ico-tel-min.png" alt="icone - telefone"> +55 (44) 3029-3655 - Maringá
+              <img data-src="assets/img/app/ico-tel-min.png" alt="icone - telefone"> +55 (44) 3029-3655 - Maringá
             </a>
           </p>
         </div>
 
         <div id="etapa5" class="etapas d-none lazy-img bg-cor-primaria h-100">
           <div class="d-flex direction-column align-items-center justify-content-center h-100">
-            <p><img data-src="src/img/app/thank-you-min.png" alt="icone - envelope"></p>
+            <p><img data-src="assets/img/app/thank-you-min.png" alt="icone - envelope"></p>
             <p class="cor-w">
               <strong>Obrigado pelo seu contato!</strong>
               <br>
@@ -224,7 +224,7 @@
           <strong>Se preferir baixe nossa calculadora solar na Apple Store ou Google Play</strong>
         </p>        
         <div class="lazy-img">
-          <img class="img-fluid" data-src="src/img/calculadora-half-iphone-min.png" alt="">
+          <img class="img-fluid" data-src="assets/img/calculadora-half-iphone-min.png" alt="">
         </div>
       </div>
     </div>

@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/jonatasu/balfar#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.7",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.3",
     "gulp-plumber": "^1.2.0",

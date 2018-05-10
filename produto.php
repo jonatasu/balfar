@@ -1,6 +1,6 @@
 <?php
   $pagina = 'produto';
-  include 'includes/_estrutura-topo.php';
+  include '__estrutura-topo.php';
 ?>
 
   <header class="internas text-center">
@@ -12,18 +12,19 @@
       <div class="row">
         <div class="col-md-6">
           <div class="bigger-pic mb-5 text-center">
-            <a href="#" class="share-btn lazy-img"><img data-src="src/img/icone-share-min.png" alt=""></a>
+            <a href="#" class="share-btn lazy-img"><img data-src="assets/img/icone-share-min.png" alt=""></a>
             <div class="lazy-img">
-              <img class="img-fluid" alt="" data-src="src/img/produto-img-destaque-min.png">
+              <img class="img-fluid w-100" alt="" data-src="assets/img/produto-img-destaque-min.png">
             </div>
           </div>
+          <br class="clearfix">
           <div class="gal-peq row">
-            <div class="lazy-img col-6 col-md-4 mb-4"><img class="img-fluid" alt="" data-src="src/img/prod-galeria-thumb-01-min.jpg"></div>
-            <div class="lazy-img col-6 col-md-4 mb-4"><img class="img-fluid" alt="" data-src="src/img/prod-galeria-thumb-02-min.jpg"></div>
-            <div class="lazy-img col-6 col-md-4 mb-4"><img class="img-fluid" alt="" data-src="src/img/prod-galeria-thumb-03-min.jpg"></div>
-            <div class="lazy-img col-6 col-md-4 mb-4"><img class="img-fluid" alt="" data-src="src/img/prod-galeria-thumb-01-min.jpg"></div>
-            <div class="lazy-img col-6 col-md-4 mb-4"><img class="img-fluid" alt="" data-src="src/img/prod-galeria-thumb-02-min.jpg"></div>
-            <div class="lazy-img col-6 col-md-4 mb-4"><img class="img-fluid" alt="" data-src="src/img/prod-galeria-thumb-03-min.jpg"></div>
+            <div class="col-6 col-md-4 mb-4"><a class="lazy-img athumb" href="assets/img/prod-galeria-thumb-01-min.jpg" title=""><img class="img-fluid" alt="" data-src="assets/img/prod-galeria-thumb-01-min.jpg"></a></div>
+            <div class="col-6 col-md-4 mb-4"><a class="lazy-img athumb" href="assets/img/prod-galeria-thumb-02-min.jpg" title=""><img class="img-fluid" alt="" data-src="assets/img/prod-galeria-thumb-02-min.jpg"></a></div>
+            <div class="col-6 col-md-4 mb-4"><a class="lazy-img athumb" href="assets/img/prod-galeria-thumb-03-min.jpg" title=""><img class="img-fluid" alt="" data-src="assets/img/prod-galeria-thumb-03-min.jpg"></a></div>
+            <div class="col-6 col-md-4 mb-4"><a class="lazy-img athumb" href="assets/img/prod-galeria-thumb-01-min.jpg" title=""><img class="img-fluid" alt="" data-src="assets/img/prod-galeria-thumb-01-min.jpg"></a></div>
+            <div class="col-6 col-md-4 mb-4"><a class="lazy-img athumb" href="assets/img/prod-galeria-thumb-02-min.jpg" title=""><img class="img-fluid" alt="" data-src="assets/img/prod-galeria-thumb-02-min.jpg"></a></div>
+            <div class="col-6 col-md-4 mb-4"><a class="lazy-img athumb" href="assets/img/prod-galeria-thumb-03-min.jpg" title=""><img class="img-fluid" alt="" data-src="assets/img/prod-galeria-thumb-03-min.jpg"></a></div>
           </div>
         </div>
         <div class="col-md-6">
@@ -38,7 +39,7 @@
           <p class="mb-5"><strong>Peso: </strong>23,0 kg com moldura</p>
           <p class="mb-5"><strong>Eficiência Energética: </strong>16,5%</p>
           <p class="mb-5"><strong>Produção Média Mensal de Energia (Kwh/mês): </strong>40,0  a geração do painel pode variar a região de instalação</p>
-          <p class="mb-5"><a href="#" class="lazy-img btn btn-link btn-block cor-neutra text-left"><img data-src="src/img/icone-doc-pdf-min.png" alt=""> Baixar documentos</a></p>
+          <p class="mb-5"><a href="#" class="lazy-img btn btn-link btn-block cor-neutra text-left"><img data-src="assets/img/icone-doc-pdf-min.png" alt=""> Baixar documentos</a></p>
           <p class="mb-5">
           <a class="btn btn-primary btn-block" href="#" role="button"><strong>Adicionar ao orçamento</strong></a>
           </p>
@@ -47,4 +48,4 @@
     </div>
   </section>
   
-<?php include 'includes/_estrutura-rodape.php'; ?>
+<?php include '__estrutura-rodape.php'; ?>

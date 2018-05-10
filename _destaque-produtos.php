@@ -9,7 +9,7 @@
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
             <div class="card">
-              <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-01-min.jpg" alt=""> </div>
+              <div class="card-img-top lazy-img"> <img data-src="assets/img/produto-thumb-01-min.jpg" alt=""> </div>
               <div class="card-body">
                 <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>
                 <a class="btn btn-primary btn-block fs20" href="produto.php" role="button"><strong>Solicitar orçamento</strong></a>
@@ -18,7 +18,7 @@
           </div>
           <div class="carousel-item">
             <div class="card">
-              <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-02-min.jpg" alt=""> </div>
+              <div class="card-img-top lazy-img"> <img data-src="assets/img/produto-thumb-02-min.jpg" alt=""> </div>
               <div class="card-body">
                 <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>
                 <a class="btn btn-primary btn-block fs20" href="produto.php" role="button"><strong>Solicitar orçamento</strong></a>
@@ -27,7 +27,7 @@
           </div>
           <div class="carousel-item">
             <div class="card">
-              <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-03-min.jpg" alt=""> </div>
+              <div class="card-img-top lazy-img"> <img data-src="assets/img/produto-thumb-03-min.jpg" alt=""> </div>
               <div class="card-body">
                 <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>
                 <a class="btn btn-primary btn-block fs20" href="produto.php" role="button"><strong>Solicitar orçamento</strong></a>
@@ -36,7 +36,7 @@
           </div>
           <div class="carousel-item">
             <div class="card">
-              <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-04-min.jpg" alt=""> </div>
+              <div class="card-img-top lazy-img"> <img data-src="assets/img/produto-thumb-04-min.jpg" alt=""> </div>
               <div class="card-body">
                 <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>
                 <a class="btn btn-primary btn-block fs20" href="produto.php" role="button"><strong>Solicitar orçamento</strong></a>
@@ -66,7 +66,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="card">
-            <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-01-min.jpg" alt=""> </div>
+            <div class="card-img-top lazy-img"> <img data-src="assets/img/produto-thumb-01-min.jpg" alt=""> </div>
             <div class="card-body">
               <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>
               <a class="btn btn-primary btn-block fs20" href="produto.php" role="button"><strong>Solicitar orçamento</strong></a>
@@ -75,7 +75,7 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-02-min.jpg" alt=""> </div>
+            <div class="card-img-top lazy-img"> <img data-src="assets/img/produto-thumb-02-min.jpg" alt=""> </div>
             <div class="card-body">
               <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>
               <a class="btn btn-primary btn-block fs20" href="produto.php" role="button"><strong>Solicitar orçamento</strong></a>
@@ -84,7 +84,7 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-03-min.jpg" alt=""> </div>
+            <div class="card-img-top lazy-img"> <img data-src="assets/img/produto-thumb-03-min.jpg" alt=""> </div>
             <div class="card-body">
               <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>
               <a class="btn btn-primary btn-block fs20" href="produto.php" role="button"><strong>Solicitar orçamento</strong></a>
@@ -93,7 +93,7 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <div class="card-img-top lazy-img"> <img data-src="src/img/produto-thumb-04-min.jpg" alt=""> </div>
+            <div class="card-img-top lazy-img"> <img data-src="assets/img/produto-thumb-04-min.jpg" alt=""> </div>
             <div class="card-body">
               <h3 class="card-title">Painel solar Fotovotaico Balfar Solar</h3>
               <a class="btn btn-primary btn-block fs20" href="produto.php" role="button"><strong>Solicitar orçamento</strong></a>

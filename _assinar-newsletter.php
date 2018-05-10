@@ -9,7 +9,7 @@
           <div class="input-group">          
             <input type="email" class="form-control" id="validationServerUsername" placeholder="Digite seu email" required>
             <div class="input-group-append">
-              <button type="submit" class="btn btn-primary input-group-text"><img src="src/img/app/arrow-white-to-bottom-min.png" alt="submit arrow"></button>
+              <button type="submit" class="btn btn-primary input-group-text"><img src="assets/img/app/arrow-white-to-bottom-min.png" alt="submit arrow"></button>
             </div>
           </div>
         </form>

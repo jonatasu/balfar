@@ -11,21 +11,21 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <a class="card" href="post.php" role="button" title="ler '2016 to Become a Breakthrough Year for Fuel Cell Eletric'">            
-            <span class="lazy-img"><img class="img-fluid" data-src="src/img/post-thumb-sample-min.jpg" alt=""></span>
+            <span class="lazy-img"><img class="img-fluid" data-src="assets/img/post-thumb-sample-min.jpg" alt=""></span>
             <span class="card-title">2016 to Become a Breakthrough Year for Fuel Cell Eletric</span>              
             <span class="card-description">The recent scandal that among other car manufacturing brands have a damaged the VW's reputation - namely the Dieselgate is seen some as a catalyst.</span>
           </a>
         </div>
         <div class="carousel-item">
           <a class="card" href="post.php" role="button" title="ler '2016 to Become a Breakthrough Year for Fuel Cell Eletric'">            
-            <span class="lazy-img"><img class="img-fluid" data-src="src/img/blog-sample-min.jpg" alt=""></span>
+            <span class="lazy-img"><img class="img-fluid" data-src="assets/img/blog-sample-min.jpg" alt=""></span>
             <span class="card-title">2016 to Become a Breakthrough Year for Fuel Cell Eletric</span>              
             <span class="card-description">The recent scandal that among other car manufacturing brands have a damaged the VW's reputation - namely the Dieselgate is seen some as a catalyst.</span>
           </a>
         </div>
         <div class="carousel-item">
           <a class="card" href="post.php" role="button" title="ler '2016 to Become a Breakthrough Year for Fuel Cell Eletric'">            
-            <span class="lazy-img"><img class="img-fluid" data-src="src/img/blog-sample-min.jpg" alt=""></span>
+            <span class="lazy-img"><img class="img-fluid" data-src="assets/img/blog-sample-min.jpg" alt=""></span>
             <span class="card-title">2016 to Become a Breakthrough Year for Fuel Cell Eletric</span>              
             <span class="card-description">The recent scandal that among other car manufacturing brands have a damaged the VW's reputation - namely the Dieselgate is seen some as a catalyst.</span>
           </a>
@@ -51,21 +51,21 @@
       <div class="row">
         <div class="col-md-4" data-aos="fade-up">
           <a class="card" href="post.php" role="button" title="ler '2016 to Become a Breakthrough Year for Fuel Cell Eletric'">            
-            <span class="lazy-img"><img class="img-fluid" data-src="src/img/post-thumb-sample-min.jpg" alt=""></span>
+            <span class="lazy-img"><img class="img-fluid" data-src="assets/img/post-thumb-sample-min.jpg" alt=""></span>
             <span class="card-title">2016 to Become a Breakthrough Year for Fuel Cell Eletric</span>              
             <span class="card-description">The recent scandal that among other car manufacturing brands have a damaged the VW's reputation - namely the Dieselgate is seen some as a catalyst.</span>
           </a>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
           <a class="card" href="post.php" role="button" title="ler '2016 to Become a Breakthrough Year for Fuel Cell Eletric'">            
-            <span class="lazy-img"><img class="img-fluid" data-src="src/img/post-thumb-sample-min.jpg" alt=""></span>
+            <span class="lazy-img"><img class="img-fluid" data-src="assets/img/post-thumb-sample-min.jpg" alt=""></span>
             <span class="card-title">2016 to Become a Breakthrough Year for Fuel Cell Eletric</span>              
             <span class="card-description">The recent scandal that among other car manufacturing brands have a damaged the VW's reputation - namely the Dieselgate is seen some as a catalyst.</span>
           </a>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
           <a class="card" href="post.php" role="button" title="ler '2016 to Become a Breakthrough Year for Fuel Cell Eletric'">            
-            <span class="lazy-img"><img class="img-fluid" data-src="src/img/post-thumb-sample-min.jpg" alt=""></span>
+            <span class="lazy-img"><img class="img-fluid" data-src="assets/img/post-thumb-sample-min.jpg" alt=""></span>
             <span class="card-title">2016 to Become a Breakthrough Year for Fuel Cell Eletric</span>              
             <span class="card-description">The recent scandal that among other car manufacturing brands have a damaged the VW's reputation - namely the Dieselgate is seen some as a catalyst.</span>
           </a>

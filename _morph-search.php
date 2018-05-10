@@ -7,54 +7,54 @@
     <div class="d-none d-sm-block dummy-column">
       <h2>Últimas do Blog</h2>
       <a class="lazy-img dummy-media-object" href="blog-post.php">
-        <img data-src="src/img/post-thumb-sample-min.jpg" alt="post cover"/>
+        <img data-src="assets/img/post-thumb-sample-min.jpg" alt="post cover"/>
         <h3>Titulo do post</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="blog-post.php">
-        <img data-src="src/img/post-thumb-sample-min.jpg" alt="post cover"/>
+        <img data-src="assets/img/post-thumb-sample-min.jpg" alt="post cover"/>
         <h3>Titulo do post</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="blog-post.php">
-        <img data-src="src/img/post-thumb-sample-min.jpg" alt="post cover"/>
+        <img data-src="assets/img/post-thumb-sample-min.jpg" alt="post cover"/>
         <h3>Titulo do post</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="blog-post.php">
-        <img data-src="src/img/post-thumb-sample-min.jpg" alt="post cover"/>
+        <img data-src="assets/img/post-thumb-sample-min.jpg" alt="post cover"/>
         <h3>Titulo do post</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="blog-post.php">
-        <img data-src="src/img/post-thumb-sample-min.jpg" alt="post cover"/>
+        <img data-src="assets/img/post-thumb-sample-min.jpg" alt="post cover"/>
         <h3>Titulo do post</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="blog-post.php">
-        <img data-src="src/img/post-thumb-sample-min.jpg" alt="post cover"/>
+        <img data-src="assets/img/post-thumb-sample-min.jpg" alt="post cover"/>
         <h3>Titulo do post</h3>
       </a>
     </div>
     <div class="dummy-column">
       <h2>Produtos</h2>
       <a class="lazy-img dummy-media-object" href="produto.php">
-        <img data-src="src/img/produto-thumb-01-min.jpg" alt="PagePreloadingEffect"/>
+        <img data-src="assets/img/produto-thumb-01-min.jpg" alt="PagePreloadingEffect"/>
         <h3>Page Preloading Effect</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="produto.php">
-        <img data-src="src/img/produto-thumb-02-min.jpg" alt="ArrowNavigationStyles"/>
+        <img data-src="assets/img/produto-thumb-02-min.jpg" alt="ArrowNavigationStyles"/>
         <h3>Arrow Navigation Styles</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="produto.php">
-        <img data-src="src/img/produto-thumb-03-min.jpg" alt="HoverEffectsIdeasNew"/>
+        <img data-src="assets/img/produto-thumb-03-min.jpg" alt="HoverEffectsIdeasNew"/>
         <h3>Ideas for Subtle Hover Effects</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="produto.php">
-        <img data-src="src/img/produto-thumb-04-min.jpg" alt="FreebieHalcyonDays"/>
+        <img data-src="assets/img/produto-thumb-04-min.jpg" alt="FreebieHalcyonDays"/>
         <h3>Halcyon Days Template</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="produto.php">
-        <img data-src="src/img/produto-thumb-01-min.jpg" alt="ArticleIntroEffects"/>
+        <img data-src="assets/img/produto-thumb-01-min.jpg" alt="ArticleIntroEffects"/>
         <h3>Inspiration for Article Intro Effects</h3>
       </a>
       <a class="lazy-img dummy-media-object" href="produto.php">
-        <img data-src="src/img/produto-thumb-02-min.jpg" alt="DraggableDualViewSlideshow"/>
+        <img data-src="assets/img/produto-thumb-02-min.jpg" alt="DraggableDualViewSlideshow"/>
         <h3>Draggable Dual-View Slideshow</h3>
       </a>
     </div>
