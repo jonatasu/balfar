@@ -6,7 +6,7 @@ const cleanCSS = require('gulp-clean-css');
 const sourcemaps = require('gulp-sourcemaps');
 const plumber = require('gulp-plumber');
 
-const srcFiles = './src/';
+const srcFiles = './assets/';
 
 // Sass Source
 const scssWebsiteFiles = `${srcFiles}scss/*.scss`;
